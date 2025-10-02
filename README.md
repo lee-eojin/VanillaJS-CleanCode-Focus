@@ -67,8 +67,8 @@ DOM, 프론트엔드 UI 대신 **순수 로직 / 함수 분리 / 클린 코드 /
 
 ```bash
 # 1. 레포 클론
-git clone https://github.com/lee-eojin/14days-soft-training.git
-cd 14days-soft-training
+git clone https://github.com/lee-eojin/VanillaJS-CleanCode-Focus.git
+cd VanillaJS-CleanCode-Focus
 
 # 2. 패키지 설치
 npm install
@@ -166,13 +166,13 @@ Unit 04 심화 섹션을 참고하세요!
 
 ## 기여하기
 
-개선 제안, 오타 수정, 새로운 문제 추가 등 모든 기여를 환영합니다!
+개선 제안이나 오타 수정 있으면 이슈나 PR 남겨주세요!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: ...'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. 포크하기
+2. 브랜치 만들기 (`git checkout -b fix-typo`)
+3. 수정사항 커밋 (`git commit -m '오타 수정'`)
+4. 푸시 (`git push origin fix-typo`)
+5. PR 올리기
 
 ---
 
