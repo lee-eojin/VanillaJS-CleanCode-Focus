@@ -1,0 +1,12 @@
+{
+  "name": "vanillajs-cleancode-focus",
+  "version": "1.0.0",
+  "description": "JavaScript clean code practice",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
