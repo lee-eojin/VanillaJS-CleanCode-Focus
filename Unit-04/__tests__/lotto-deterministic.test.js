@@ -32,8 +32,8 @@ describe("로또 번호 생성기 (결정적 테스트)", () => {
     });
 
     test("다른 시드면 다른 결과", () => {
-      const rng1 = new SeededRandom(12345);
-      const rng2 = new SeededRandom(54321);
+      const rng1 = new SeededRandom(100);
+      const rng2 = new SeededRandom(200);
 
       const result1 = generateRandomNumber(1, 10, rng1);
       const result2 = generateRandomNumber(1, 10, rng2);
