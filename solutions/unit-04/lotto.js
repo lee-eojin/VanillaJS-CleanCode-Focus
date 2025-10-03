@@ -24,7 +24,9 @@ function generateLottoNumbers(randomGenerator = defaultRandomGenerator) {
 }
 
 function sortNumbers(numbers) {
-  // 여기에 구현하세요
+  const copy = [...numbers];
+  copy.sort((a, b) => a - b);
+  return copy;
 }
 
 module.exports = {
