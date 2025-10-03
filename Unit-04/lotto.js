@@ -11,12 +11,10 @@ const defaultRandomGenerator = {
 
 function generateRandomNumber(min, max, randomGenerator = defaultRandomGenerator) {
   // 여기에 구현하세요
-  // randomGenerator.generateNumber(min, max) 활용
 }
 
 function generateLottoNumbers(randomGenerator = defaultRandomGenerator) {
   // 여기에 구현하세요
-  // generateRandomNumber에 randomGenerator 전달
 }
 
 function sortNumbers(numbers) {
