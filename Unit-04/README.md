@@ -15,11 +15,14 @@
 
 ## 📝 요구사항
 
+> **난이도를 고려해서**, `lotto.js` 파일에 `defaultRandomGenerator` 객체가 이미 제공되어 있습니다.
+> 이 객체는 `generateNumber(min, max)` 메서드를 가지고 있으며, Math.random()을 사용해 랜덤 정수를 반환합니다.
+
 ### 기능 요구사항
 1. `generateRandomNumber(min, max, randomGenerator)`:
-   - randomGenerator를 사용해 min과 max 사이의 랜덤 정수 반환
-   - randomGenerator가 없으면 기본 생성기(Math.random) 사용
-   - randomGenerator.generateNumber(min, max)를 호출하는 방식으로 구현
+   - **randomGenerator.generateNumber(min, max)를 호출**하여 랜덤 정수 반환
+   - randomGenerator가 없으면 기본 생성기(defaultRandomGenerator) 사용
+   - Math.random()을 직접 사용하지 말고, randomGenerator를 통해서만 사용
 
 2. `generateLottoNumbers(randomGenerator)`:
    - 1~45 사이의 중복되지 않는 숫자 6개 생성
