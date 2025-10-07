@@ -11,9 +11,13 @@
 - Unit 02 — 문자열 계산기
 - Unit 03 — 문자열 계산기 (확장)
 - Unit 04 — 로또 번호 생성기
+- Unit 05 — 숫자 야구 게임
+- Unit 06 — 정렬 & 탐색
+- Unit 07 — 리팩토링 및 1주차 종합
 
 ### 작업중
-- Unit 05
+- Unit 05 (validator.js / console.js / game.js)
+- Unit 08
 
 ---
 
