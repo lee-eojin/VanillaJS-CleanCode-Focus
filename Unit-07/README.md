@@ -59,7 +59,3 @@ filterEvenNumbers([])                  // → []
 - [ ] `else` 최소화
 - [ ] 테스트 통과
 
-## 테스트 실행
-```bash
-npm test Unit-07
-```
