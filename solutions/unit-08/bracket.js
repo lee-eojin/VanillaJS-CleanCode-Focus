@@ -1,27 +1,46 @@
 const Stack = require('./stack');
 
+const OPENING_BRACKETS = '([{';
+const CLOSING_BRACKETS = ')]}';
+const BRACKET_PAIRS = {
+  ')': '(',
+  ']': '[',
+  '}': '{'
+};
+
+function isOpeningBracket(char) {
+  return OPENING_BRACKETS.includes(char);
+}
+
+function isClosingBracket(char) {
+  return CLOSING_BRACKETS.includes(char);
+}
+
+function isMatchingPair(opening, closing) {
+  return BRACKET_PAIRS[closing] === opening;
+}
+
 function isValidBracket(str) {
   const stack = new Stack();
-  const brackets = {
-    ')': '(',
-    ']': '[',
-    '}': '{'
-  };
 
   for (let char of str) {
-    if (char === '(' || char === '[' || char === '{') {
+    if (isOpeningBracket(char)) {
       stack.push(char);
+      continue;
     }
-    else if (char === ')' || char === ']' || char === '}') {
+
+    if (isClosingBracket(char)) {
       if (stack.isEmpty()) {
         return false;
       }
+
       const top = stack.pop();
-      if (top !== brackets[char]) {
+      if (!isMatchingPair(top, char)) {
         return false;
       }
     }
   }
+
   return stack.isEmpty();
 }
 
