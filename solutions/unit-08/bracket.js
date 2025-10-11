@@ -1,6 +1,28 @@
+const Stack = require('./stack');
+
 function isValidBracket(str) {
-  // 여기에 구현하세요
-  // 올바른 괄호면 true, 아니면 false
+  const stack = new Stack();
+  const brackets = {
+    ')': '(',
+    ']': '[',
+    '}': '{'
+  };
+
+  for (let char of str) {
+    if (char === '(' || char === '[' || char === '{') {
+      stack.push(char);
+    }
+    else if (char === ')' || char === ']' || char === '}') {
+      if (stack.isEmpty()) {
+        return false;
+      }
+      const top = stack.pop();
+      if (top !== brackets[char]) {
+        return false;
+      }
+    }
+  }
+  return stack.isEmpty();
 }
 
 module.exports = { isValidBracket };
