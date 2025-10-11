@@ -1,26 +1,26 @@
 class Queue {
   constructor() {
-    // 여기에 구현하세요
+    this.items = [];
   }
 
   enqueue(item) {
-    // 여기에 구현하세요
+    this.items.push(item);
   }
 
   dequeue() {
-    // 여기에 구현하세요
+    return this.items.shift();
   }
 
   front() {
-    // 여기에 구현하세요
+    return this.items[0];
   }
 
   isEmpty() {
-    // 여기에 구현하세요
+    return this.items.length === 0;
   }
 
   size() {
-    // 여기에 구현하세요
+   return this.items.length;
   }
 }
 
