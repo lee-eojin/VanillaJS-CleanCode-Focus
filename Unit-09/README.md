@@ -53,5 +53,5 @@ findPathBFS(maze); // 5
 
 ## 🧪 테스트 실행
 ```bash
-npm test Day-09
+npm test Unit-09
 ```

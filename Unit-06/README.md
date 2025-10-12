@@ -97,5 +97,5 @@ binarySearch([], 5)                // → -1 (빈 배열)
 
 ## 🧪 테스트 실행
 ```bash
-npm test Day-06
+npm test Unit-06
 ```

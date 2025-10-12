@@ -72,5 +72,5 @@ node Day-05/game.js
 
 ## 🧪 테스트 실행
 ```bash
-npm test Day-05
+npm test Unit-05
 ```
