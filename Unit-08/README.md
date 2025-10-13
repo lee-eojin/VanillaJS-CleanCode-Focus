@@ -1,4 +1,4 @@
-# Unit-08: Stack & Queue, 괄호 유효성 검사
+# Day-08: Stack & Queue, 괄호 유효성 검사
 
 ## 문제 설명
 
