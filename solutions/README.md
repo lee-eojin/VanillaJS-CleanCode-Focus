@@ -14,10 +14,11 @@
 - Unit 05 — 숫자 야구 게임
 - Unit 06 — 정렬 & 탐색
 - Unit 07 — 리팩토링 및 1주차 종합
+- Unit 09 — DFS/BFS 미로 탈출
+- Unit 10 — Map/Set 활용, 로또 통계
 
 ### 작업중
-- Unit 05 (validator.js / console.js / game.js)
-- Unit 08
+- Unit 11
 
 ---
 
